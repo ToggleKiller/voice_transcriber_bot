@@ -3,6 +3,10 @@ from discord.ext import commands
 import speech_recognition as sr
 from pydub import AudioSegment
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+TOKEN = os.getenv('DISCORD_TOKEN')
 
 #Setup Bot with Command Prefix '!'
 intents = discord.Intents.default()
@@ -75,4 +79,4 @@ async def transcribe(ctx, lang_code="fr-FR"):
         if os.path.exists(filename_ogg): os.remove(filename_ogg)
         if os.path.exists(filename_wav): os.remove(filename_wav)
 
-bot.run('BOT_TOKEN')
+bot.run('TOKEN')

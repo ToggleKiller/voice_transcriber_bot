@@ -8,7 +8,7 @@ Before running the bot, ensure you have the following installed:
 ## Installation
 
 ### 1. Clone or Download
-Create a folder for your bot and place your `main.py` file inside. (Change BOT_TOKEN to your bot token)
+Create a folder for your bot and place your `main.py` file inside.
 
 NOTE: By default it will be in french.
 
