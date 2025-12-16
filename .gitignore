@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+token.txt
+temp_audio.ogg
+temp_audio.wav
+voice_*.ogg
+voice_*.wav
